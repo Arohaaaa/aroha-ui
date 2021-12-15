@@ -1,0 +1,43 @@
+{
+  "name": "gdie-platform",
+  "version": "0.1.1",
+  "author": "Aroha",
+  "main": "lib/gdie-platform.common.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --dest lib ./packages/index.js"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.8",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.3",
+    "normalize.css": "^8.0.1",
+    "vue": "^2.6.11",
+    "vue-grid-layout": "^2.3.12",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "svg-sprite-loader": "^6.0.9",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "publishConfig": {
+    "registry": "http://192.168.20.242:8081/repository/npm-hosted/"
+  }
+}

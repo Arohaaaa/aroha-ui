@@ -1,0 +1,50 @@
+#app-menu {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	width: 240px;
+	box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.06);
+}
+.app-menu-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	padding: 0 16px 0 24px;
+	color: #666666;
+	svg {
+		cursor: pointer;
+	}
+}
+.menu-wrap {
+	flex: 1;
+}
+#app-menu .el-menu {
+	border-right: none;
+}
+.el-menu .svg-icon {
+	margin-right: 8px;
+}
+.el-menu--collapse
+	> .sideMenuItem
+	> .el-submenu
+	> .el-submenu__title
+	.sidebar-menu-title {
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	visibility: hidden;
+	display: inline-block;
+}
+.el-submenu__title {
+	display: flex;
+	align-items: center;
+	.svg-icon {
+		flex-shrink: 0;
+	}
+}
+.el-menu--collapse {
+	.el-submenu__icon-arrow {
+		display: none;
+	}
+}

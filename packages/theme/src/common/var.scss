@@ -1,0 +1,58 @@
+/****************************颜色****************************/
+$--color-primary: #1a77f9 !default;
+$--color-secondary: #4C95FA !default;
+$--color-white: #FFFFFF !default;
+$--color-black: #000000 !default;
+$--color-bg-color-primary: #f5f5f5 !default;
+$--color-bg-color-secondary: #fafafa !default;
+// 字体颜色
+$--color-font-primary: #262626 !default;
+$--color-font-secondary: #666666 !default;
+$--color-font-help: #999999 !default;
+$--color-font-disable: #cccccc !default;
+$--color-font-tips: #cccccc !default;
+// 边框颜色
+$--color-border-primary: #e5e5e5 !default;
+$--color-border-secondary: #f0f0f0 !default;
+// TODO 待添加
+// 状态色
+// 衍生色
+/****************************颜色****************************/
+
+
+/****************************字体****************************/
+$--font-path: 'fonts' !default;
+$--font-display: 'auto' !default;
+$--font-size-extra-large: 20px !default;
+$--font-size-large: 18px !default;
+$--font-size-medium: 16px !default;
+$--font-size-base: 14px !default;
+$--font-size-small: 13px !default;
+$--font-size-extra-small: 12px !default;
+$--font-weight-primary: 500 !default;
+$--font-weight-secondary: 100 !default;
+$--font-line-height-primary: 24px !default;
+$--font-line-height-secondary: 16px !default;
+$--font-color-disabled-base: #bbb !default;
+/****************************字体****************************/
+
+
+/****************************边框****************************/
+$--border-width-base: 1px !default;
+$--border-style-base: solid !default;
+$--border-color-hover: $--color-font-tips !default;
+$--border-base: $--border-width-base $--border-style-base $--color-border-secondary !default;
+$--border-radius-base: 4px !default;
+$--border-radius-small: 2px !default;
+$--border-radius-circle: 100% !default;
+$--border-radius-zero: 0 !default;
+/****************************边框****************************/
+
+
+/****************************对话框****************************/
+$--dialog-background-color: $--color-white !default;
+$--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
+$--dialog-title-font-size: $--font-size-medium !default;
+$--dialog-content-font-size: 14px !default;
+$--dialog-padding-primary: 12px 20px !default;
+/****************************对话框****************************/

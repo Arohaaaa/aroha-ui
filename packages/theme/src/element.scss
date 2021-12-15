@@ -1,0 +1,9 @@
+.el-scrollbar__wrap {
+	scrollbar-width: none;
+}
+.el-scrollbar__wrap::-webkit-scrollbar {
+	display: none;
+}
+.el-scrollbar__view {
+	height: 100%;
+}

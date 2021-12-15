@@ -1,0 +1,39 @@
+#app {
+  display: flex;
+  flex-flow: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+#app-head {
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+#app-logo {
+  width: 200px
+}
+#app-body {
+  display: flex;
+  width: 100%;
+  flex: 1;
+}
+#app-aside {
+  
+}
+#app-main {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+#app-main > .el-scrollbar {
+  flex: 1;
+}
+.tabbar {
+  flex-shrink: 0;
+}
+.content-body {
+  flex: 1;
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
